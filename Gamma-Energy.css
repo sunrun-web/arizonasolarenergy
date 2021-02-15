@@ -441,17 +441,17 @@
 }
 
 .u-section-2 .u-shape-1 {
-  width: 821px;
+  width: calc(((100% - 1140px) / 2) + 1140px);
   left: auto;
   right: 0;
-  margin-left: 479px;
 }
 
 .u-section-2 .u-text-1 {
-  font-size: 1.875rem;
+  font-size: 2.25rem;
   font-weight: normal;
   font-style: normal;
-  margin: 0 calc(((100% - 1140px) / 2) + 40px) 0 calc(((100% - 1140px) / 2) + 430px);
+  width: 886px;
+  margin: 0 auto;
 }
 
 .u-section-2 .u-image-1 {
@@ -506,7 +506,6 @@
 @media (max-width: 1199px) {
   .u-section-2 .u-shape-1 {
     width: 695px;
-    margin-left: initial;
   }
 
   .u-section-2 .u-text-1 {
@@ -540,12 +539,12 @@
 
   .u-section-2 .u-shape-1 {
     width: 605px;
-    margin-left: initial;
   }
 
   .u-section-2 .u-text-1 {
     margin-right: calc(((100% - 720px) / 2) + -40px);
     margin-left: calc(((100% - 720px) / 2) + 66px);
+    width: 720px;
   }
 
   .u-section-2 .u-image-1 {
@@ -574,13 +573,13 @@
   }
 
   .u-section-2 .u-shape-1 {
-    width: 540px;
-    margin-left: initial;
+    width: calc(((100% - 540px) / 2) + 540px);
   }
 
   .u-section-2 .u-text-1 {
     margin-left: 479px;
     margin-right: calc(((100% - 540px) / 2) + -40px);
+    width: 540px;
   }
 
   .u-section-2 .u-image-1 {
@@ -602,38 +601,32 @@
 
   .u-section-2 .u-shape-1 {
     width: 343px;
-    height: 1097px;
-    left: auto;
-    bottom: auto;
-    right: auto;
-    top: auto;
-    margin: 21px 0 0 auto;
   }
 
   .u-section-2 .u-text-1 {
     font-size: 1.5rem;
     font-weight: 700;
     font-style: italic;
-    width: auto;
-    margin-top: -1097px;
-    margin-right: 0;
-    margin-left: calc(((100% - 340px) / 2) + 47px);
+    width: 309px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-2 .u-image-1 {
     height: 288px;
-    margin-top: 0;
+    margin-top: 30px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
   .u-section-2 .u-group-1 {
-    width: 318px;
+    width: calc(((100% - 340px) / 2) + 268px);
     min-height: 683px;
     margin-top: 0;
     margin-right: 0;
-    margin-bottom: 49px;
+    margin-bottom: 25px;
   }
 
   .u-section-2 .u-container-layout-1 {
